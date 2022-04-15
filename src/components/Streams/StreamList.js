@@ -32,6 +32,7 @@ class StreamList extends React.Component {
           <div className='content'>
             {stream.title}
             <div className='description'>{stream.description}</div>
+            {stream.userId}
           </div>
           
         </div>
